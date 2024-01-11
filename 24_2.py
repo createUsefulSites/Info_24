@@ -23,7 +23,6 @@ file = open("24_2.txt")
 pairs = []
 vowels = 'AEIOUY'
 consonants = 'BCDFGHJKLMNPQRSTVWXYZ'
-pos = 1
 mx_sum = 0
 answer = ''
 for element in file:
@@ -38,7 +37,6 @@ for element in file:
     if mx_sum < sm_symbols:
         answer = a + b
         mx_sum = sm_symbols
-    pos += 1
 
 print(answer)
 
