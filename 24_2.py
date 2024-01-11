@@ -36,7 +36,7 @@ for element in file:
         if b[i] in consonants:
             sm_symbols += 1
     if mx_sum < sm_symbols:
-        answer = a
+        answer = a + b
         mx_sum = sm_symbols
     pos += 1
 
